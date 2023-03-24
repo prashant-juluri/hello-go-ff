@@ -10,10 +10,10 @@ import (
 )
 
 // Set sdkKey to your LaunchDarkly SDK key.
-const sdkKey = ""
+const sdkKey = "sdk-04961690-e815-48ab-80e4-adf624a77aa5"
 
 // Set featureFlagKey to the feature flag key you want to evaluate.
-const featureFlagKey = "my-boolean-flag"
+const featureFlagKey = "my-first-flag"
 
 func showMessage(s string) { fmt.Printf("*** %s\n\n", s) }
 
